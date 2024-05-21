@@ -2,7 +2,7 @@ FROM openjdk:17-slim
 
 WORKDIR /movies
 
-COPY target/  *.jar movies.jar/
+COPY target/  *.jar
 
 EXPOSE 8080
 
