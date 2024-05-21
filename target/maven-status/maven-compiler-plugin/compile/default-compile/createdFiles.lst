@@ -1,0 +1,9 @@
+com\example\movies\ReviewService.class
+com\example\movies\ReviewController.class
+com\example\movies\Review.class
+com\example\movies\MoviesApplication.class
+com\example\movies\ReviewRepository.class
+com\example\movies\Movie.class
+com\example\movies\MovieService.class
+com\example\movies\MovieController.class
+com\example\movies\MovieRepository.class
