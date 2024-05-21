@@ -1,8 +1,8 @@
 FROM openjdk:17-slim
 
-WORKDIR /movies
+WORKDIR /movie-api
 
-COPY target/movies-0.0.1-SNAPSHOT.jar  *.jar
+COPY /target/movies-0.0.1-SNAPSHOT.jar  *.jar
 
 EXPOSE 8080
 
