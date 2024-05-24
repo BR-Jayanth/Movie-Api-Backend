@@ -31,5 +31,11 @@ public class MovieService {
 
         return movie;
     }
+    public String deleteMovie(ObjectId id) {
+        // adds a new movie to database
+        movieRepository.deleteById(id);
+
+        return "success";
+    }
 
 }
